@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap&subset=latin-ext');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color:#1b1b1b;
+}
+
+header{
+	background: #9ED4A2;
+	padding: 25px;
+}
+
+header > h1{
+	color: #1b1b1b;
+	text-align: center;
+	font-family: Bangers, cursive;
+}
+
+.eredmeny-tabla{
+	margin: 25px auto;
+	border: 5px solid white;
+	border-radius: 5px;
+	text-align: center;
+	width: 200px;
+	color: white;
+	font-size: 30px;
+	padding: 15px 20px;
+	font-family: Bangers, cursive;
+	position: relative;
+}
+
+.feliratok{
+	background: #C35254;
+	color: white;
+	font-size: 15px;
+	padding: 2px 10px;
+	font-family: Bangers, cursive;
+}
+
+#jatekos-felirat{
+	position: absolute;
+	top: 20px;
+	left: -30px;
+}
+#szamitogep-felirat{
+	position: absolute;
+	top: 20px;
+	right: -50px;
+}
+
+.eredmeny{
+	text-align: center;
+	color: white;
+	font-size:50px;
+	font-family: Bangers, cursive;
+	padding: 25px;
+}
+
+.valasztasok{
+	margin: 50px 0px;
+	text-align: center;
+}
+
+.valasztas{
+	border: 4px solid #C35254;
+	border-radius: 20%;
+	margin: 0px 20px;
+	padding: 0px;	
+	display:inline-block;
+	transition: all 0.3s ease;
+}
+
+#dontes{
+	margin: 50px 0px;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	font-family: Bangers, cursive;
+}
+
+.valasztas:hover{
+	cursor: pointer;
+	background: #8F9799;
+	
+}
+
+.zold-villanas{
+	border: 4px solid #00FF0D;
+	box-shadow: 0 0 10px green;
+}
+
+.piros-villanas{
+	border: 4px solid #FF0004;
+	box-shadow: 0 0 10px #730204;
+}
+
+.sarga-villanas{
+	border: 4px solid #FFF500;
+	box-shadow: 0 0 10px #bcb500;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
